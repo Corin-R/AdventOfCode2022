@@ -31,22 +31,24 @@ std::vector<std::vector<std::string>> parseStarting(std::vector<std::string> s){
             
 
 
-        }else{
-            std::cout << "IN HERE\t" << line <<  std::endl;  
-            line.erase(0,1);
+        // }else{
+        //     std::cout << "IN HERE\t" << line <<  std::endl;  
+        //     line.erase(0,1);
             
-            // size_t insertPos = 0;
-            // size_t pos = 0;
-            // std::string delim = "] [";
+        //     size_t insertPos = 0;
+        //     size_t pos = 0;
+        //     std::string delim = "] [";
             
-            // while((pos = line.find(delim)) != std::string::npos){
-            //     resultInput.at(insertPos).push_back(line.substr(0, pos));
-            //     line.erase(0, pos + delim.length());
-            //     insertPos++;
-            // }
-            // line.erase(1,2);
-            // resultInput.at(insertPos+1).push_back(line);  
-            //Push back input
+        //     while((pos = line.find(delim)) != std::string::npos){
+        //         //TODO INsertpos
+        //         insertPos = 
+        //         resultInput.at(insertPos).push_back(line.substr(0, pos));
+        //         line.erase(0, pos + delim.length());
+
+        //     }
+        //     line.erase(1,2);
+        //     resultInput.at(insertPos+1).push_back(line);  
+        //     //Push back input
         }
     }
     
