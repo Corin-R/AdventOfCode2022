@@ -3,6 +3,8 @@
 #include <string>
 #include <fstream>
 
+#pragma once
+
 
 class Reader {
 

@@ -12,7 +12,7 @@ Reader::Reader(char** argv){
 
 
     }else {
-        std::cout << "Could not open the stream with argv[1] " << argv[1] << std::endl;
+        std::cout << "Could not open the stream with argv[1] " << argv[1] << "\n" << std::endl;
     }
 }
 
@@ -21,6 +21,7 @@ std::vector<std::string> Reader::getInput(){
 }
 
 void Reader::print(){
+    std::cout << "=== BEGIN OF INPUT ===" << std::endl;
     for (size_t i = 0; i < m_inputVector.size(); i++)
     {
         std::cout << m_inputVector.at(i) << std::endl;
