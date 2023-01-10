@@ -5,7 +5,7 @@ BUILD=build
 
 
 # Compile main by default
-all: build/05
+all: 04
 
 # $(BUILD)/*.o expands to all .o files in the $(BUILD) directory
 # In this case, we'll get $(BUILD)/file1.o $(BUILD)/file2.o

@@ -19,3 +19,11 @@ Reader::Reader(char** argv){
 std::vector<std::string> Reader::getInput(){
     return this->m_inputVector;
 }
+
+void Reader::print(){
+    for (size_t i = 0; i < m_inputVector.size(); i++)
+    {
+        std::cout << m_inputVector.at(i) << std::endl;
+    }
+    std::cout << "=== END OF INPUT ===" << std::endl;
+}
